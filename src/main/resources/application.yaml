@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${DATASOURCE_HOST:localhost}:5444/users-api
+    username: admin
+    password: admin
+
+
+  graphql:
+    graphiql:
+      enabled=true:
